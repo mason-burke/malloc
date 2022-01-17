@@ -42,7 +42,8 @@ Now, run the provided file mdriver with the -r flag:
     
 Note that this does support I/O redirection, but I did not find it to be necessary while testing this project. Once in the REPL, there are a number of available commands:
 
-    malloc [id] [size]: allocate a block of memory with an [id] number (must be unique to the blocks currently allocated) with a certain [size]-byte payload.
+    malloc [id] [size]: allocate a block of memory with an [id] number 
+                        (must be unique to the blocks currently allocated) with a certain [size]-byte payload.
     free [id]: free a block with a given [id].
     realloc [id] [size]: reallocate a block with a given [id] to a new [size].
     print: prints out the state of the heap.
